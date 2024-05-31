@@ -23,6 +23,7 @@ h1 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h1,
 h2,
@@ -70,6 +71,9 @@ h6 {
   h2 {
     font-size: 44px;
   }
+}
+h2 {
+  font-size: 64px;
 }
 .text-muted {
   color: #6c757d;
