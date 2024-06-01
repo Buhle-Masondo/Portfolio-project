@@ -4,6 +4,31 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", san-serif;
 }
+.bg-light {
+  background: #f8f9fa;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar > .container {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-light .navbar-brand {
+  font-family: var(--heading-font-family);
+  color: #6c63ff;
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
 h1 {
   color: black;
   font-family: "Playfair Display", serif;
@@ -90,4 +115,26 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+footer {
+  margin: 50px 0;
+}
+footer .work-box {
+  background: var(--secondary-color);
+  border-radius: 6px;
+}
+footer h4 {
+  font-size: 30px;
+}
+footer .email-link {
+  color: black;
+  text-decoration: none;
+  font-size: 26px;
+}
+footer .github {
+  font-size: 12px;
+}
+footer .github-link {
+  text-decoration: none;
+  color: var(--branding-color);
 }
