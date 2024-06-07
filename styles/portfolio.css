@@ -114,6 +114,9 @@ h6 {
     font-size: 18px;
     font-family: var(--default-font-family);
   }
+  h4 {
+    font-size: 26px;
+  }
 }
 h2 {
   font-size: 64px;
@@ -139,15 +142,28 @@ footer {
 }
 footer .work-box {
   background: var(--secondary-color);
-  border-radius: 6px;
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 footer h4 {
-  font-size: 30px;
+  font-size: 48px;
+}
+footer.work-box p {
+  margin: 0;
 }
 footer .email-link {
   color: black;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 40px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
 }
 footer .github {
   font-size: 12px;
